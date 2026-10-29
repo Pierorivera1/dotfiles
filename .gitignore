@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+*.bak
+*.swp
+*.swo
+*~
+.DS_Store
+.env
+.env.*
+auth.json
+credentials.json
+codex/AGENTS.md
+*.sqlite*
+*.log
