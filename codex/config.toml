@@ -8,7 +8,7 @@ js_repl = false
 
 [tui]
 status_line = ["model-with-reasoning", "current-dir", "thread-name", "context-remaining", "five-hour-limit", "weekly-limit"]
-theme = "monokai-extended-light"
+theme = "dracula"
 
 [desktop]
 conversationDetailMode = "STEPS_COMMANDS"
