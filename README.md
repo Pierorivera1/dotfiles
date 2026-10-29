@@ -32,8 +32,12 @@ Git pull updates the repository, including linked skills. Run the installer
 again after pulling newly added skills. Skills already installed under other
 names stay untouched. Review same-name conflicts before making changes.
 
-The current personal skills are `in-your-own-words` and `unslop`. They require
-explicit invocation, such as `$in-your-own-words` or `$unslop`.
+The personal skills are:
+
+- `in-your-own-words`: restate the user's goal. Invoke with `$in-your-own-words`.
+- `unslop`: edit prose while preserving meaning and voice. Invoke with `$unslop`.
+- `interview`: develop an implementation-ready specification through questions.
+  Invoke with `$interview` or request an interview about a project or feature.
 
 ## Settings and instructions
 
