@@ -59,12 +59,23 @@ personal shortcuts, global workspace behavior, appearance, and lock and idle
 settings. Super+S toggles the scratchpad. Its background dimming follows the
 Omarchy default.
 
-These files are a snapshot, not linked or installed by the Codex installer.
-Review and copy the desired files to `~/.config/hypr/` manually. Back up existing
-files first. In particular, `monitors.lua` contains this desktop's monitor names,
-positions, and refresh rates; adapt it before using it on another machine. The
-global workspace override depends on Omarchy internals and may need adjustment
-after updates. The optional custom workspace bar plugin is not included.
+These files are a snapshot. Pulling the repository does not change the active
+Hyprland config. To apply the settings on another Omarchy machine, run:
+
+```bash
+bash ~/dotfiles/hypr/install.sh
+hyprctl reload
+hyprctl configerrors
+```
+
+The installer backs up existing files before replacing them. It always keeps the
+machine's own `monitors.lua`, and stops if that file is missing. The tracked
+`monitors.lua` records this desktop's configuration for reference. Other settings,
+including keyboard input and idle behavior, are copied from this desktop, so
+review them before installing. Run the installer again after pulling changes;
+the files are copied, not linked. The global workspace override depends on
+Omarchy internals and may need adjustment after updates. The optional custom
+workspace bar plugin is not included.
 
 ## References
 
