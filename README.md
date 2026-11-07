@@ -1,7 +1,6 @@
 # Personal dotfiles
 
-My Codex settings and personal skills. The `codex/` directory
-contains the files I manage with Git.
+My Codex settings, personal skills, and Hyprland configuration.
 
 ## Install
 
@@ -50,8 +49,22 @@ in Codex on each machine.
 
 Credentials, sessions, plugin caches, project trust entries, local browser
 integration, and hook trust state stay outside this repository. The hooks
-feature flag does not install hook definitions. Hyprland and herdr settings
-remain machine-specific.
+feature flag does not install hook definitions. Herdr settings remain
+machine-specific.
+
+## Hyprland
+
+The `hypr/` directory contains the active Omarchy 4.5 configuration, including
+personal shortcuts, global workspace behavior, appearance, and lock and idle
+settings. Super+S toggles the scratchpad. Its background dimming follows the
+Omarchy default.
+
+These files are a snapshot, not linked or installed by the Codex installer.
+Review and copy the desired files to `~/.config/hypr/` manually. Back up existing
+files first. In particular, `monitors.lua` contains this desktop's monitor names,
+positions, and refresh rates; adapt it before using it on another machine. The
+global workspace override depends on Omarchy internals and may need adjustment
+after updates. The optional custom workspace bar plugin is not included.
 
 ## References
 
