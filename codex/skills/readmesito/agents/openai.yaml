@@ -1,0 +1,4 @@
+interface:
+  display_name: "readmesito"
+  short_description: "Generate or update accurate, polished project READMEs"
+  default_prompt: "Use $readmesito to update the existing project README or generate one if missing, following its evidence, screenshot, and verification rules."

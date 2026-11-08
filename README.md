@@ -37,6 +37,8 @@ The personal skills are:
 - `no-slop`: edit prose while preserving meaning and voice. Invoke with `$no-slop`.
 - `interview`: develop an implementation-ready specification through questions.
   Invoke with `$interview` or request an interview about a project or feature.
+- `readmesito`: create or update a project README based on repository evidence.
+- `grill-me`: invoke the `grilling` skill to challenge a plan or design.
 
 ## Settings and instructions
 
