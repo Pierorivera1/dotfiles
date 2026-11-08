@@ -1,9 +1,9 @@
 ---
-name: unslop
+name: no-slop
 description: Cut AI tells from writing while preserving meaning and voice.
 ---
 
-# Unslop
+# No slop
 
 Scan the text for the patterns below, then make the smallest useful edits. Match the intended tone. Treat patterns as signals, not automatic replacements, except for the explicit punctuation rules.
 
