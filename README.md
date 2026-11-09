@@ -31,8 +31,8 @@ Git pull updates the repository, including linked skills. Run the installer
 again after pulling newly added skills. Skills already installed under other
 names stay untouched. Review same-name conflicts before making changes.
 
-The repository also includes installed AWS, design, and other third-party skills.
-Omarchy and Codex system skills are managed separately. Existing installed copies
+The repository also includes the installed `impeccable`, `unslop`,
+`frontend-design`, and `design-taste-frontend` skills. Existing installed copies
 are preserved by the installer, so review conflicts before linking repository copies.
 
 The personal skills are:
