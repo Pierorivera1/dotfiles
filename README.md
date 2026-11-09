@@ -31,9 +31,17 @@ Git pull updates the repository, including linked skills. Run the installer
 again after pulling newly added skills. Skills already installed under other
 names stay untouched. Review same-name conflicts before making changes.
 
-The repository also includes the installed `impeccable`, `unslop`,
-`frontend-design`, and `design-taste-frontend` skills. Existing installed copies
-are preserved by the installer, so review conflicts before linking repository copies.
+The repository also includes four frontend skills:
+
+- `design-taste-frontend`: design and review websites.
+- `frontend-design`: develop a distinct visual direction for an interface.
+- `impeccable`: design, audit, and improve frontend interfaces.
+- `unslop`: improve the visual design of an existing interface.
+
+Existing installed copies are preserved by the installer. A separate copy does
+not receive updates made to the repository. Check both `~/.agents/skills/` and
+`~/.codex/skills/` for same-name copies before resolving a conflict. If both
+locations contain a skill with the same name, Codex may list it twice.
 
 The personal skills are:
 
@@ -42,7 +50,9 @@ The personal skills are:
 - `interview`: develop an implementation-ready specification through questions.
   Invoke with `$interview` or request an interview about a project or feature.
 - `readmesito`: create or update a project README based on repository evidence.
-- `grill-me`: invoke the `grilling` skill to challenge a plan or design.
+- `grill-me`: invoke the separately installed `grilling` skill to challenge a
+  plan or design. This repository does not include `grilling`, so this requires
+  a compatible installation of that skill and a runtime that can invoke it.
 
 ## Settings and instructions
 
